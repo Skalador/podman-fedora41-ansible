@@ -1,11 +1,11 @@
-FROM fedora:40
+FROM fedora:41
 LABEL maintainer="Kevin Niederwanger"
-LABEL name="skalador/fedora40-ansible"
+LABEL name="skalador/fedora41-ansible"
 LABEL vendor=""
-LABEL version="40"
+LABEL version="41"
 LABEL release="v0.1.0"
-LABEL summary="Fedora 40 Podman image for Ansible testing."
-LABEL description="Fedora 40 Podman image for Ansible testing."
+LABEL summary="Fedora 41 Podman image for Ansible testing."
+LABEL description="Fedora 41 Podman image for Ansible testing."
 
 COPY LICENSE /licenses
 
